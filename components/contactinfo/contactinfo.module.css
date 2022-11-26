@@ -1,0 +1,23 @@
+.info {
+    font-size: 1.1rem; 
+    font-weight: 500;
+}
+
+.icon {
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    color: #FF0F7B;
+}
+
+@media screen and (min-width:992px) {
+    .info {
+            font-size: 1.5rem;
+            font-weight: 500;
+        }
+    
+    .icon {
+        margin-right: 1rem;
+        font-size: 1.7rem;
+        color: #FF0F7B;
+    }
+}

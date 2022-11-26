@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+/* .bannerLeft,
+.bannerRight {
+    padding: 4rem
+} */
+
+.bannerLeft {
+    display: flex;
+    align-items: center;
+}
+
+
+.bannerTitle {
+    font-family: "Lora",serif;
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 1.3rem;
+}
+
+.bannerText {
+    font-size: 1.2rem;
+    color: #393A62;
+    margin-bottom: 2.6rem;
+}
+
+
+
+
+
+/* .bannerTitle {
+    font-size: 5rem;
+    text-align: center;
+
+} */
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+@media screen and (min-width:768px) {
+    .bannerTitle {
+            font-size: 4rem;
+        }
+}

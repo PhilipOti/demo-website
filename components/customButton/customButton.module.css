@@ -1,0 +1,14 @@
+.btn {
+    padding: 0.8rem 2rem;
+    background-image: linear-gradient(to left, #ff0f7b,#f89b29);
+    border-radius: 25px;
+    border: 0;
+    font-weight: 600;
+    color: #F1F1FB;
+    transition: all 0.2s ease-in-out;
+} 
+
+.btn:hover {
+    transform: scale(1.1);
+    color: #393A62;
+}

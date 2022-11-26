@@ -1,0 +1,41 @@
+.iconContainer {
+    background-image: linear-gradient(to left,
+            #FF0F7B,
+            #FB9B29);
+    height: 70px;
+    width: 70px;
+    border-radius: 40%;
+    position: relative;
+    margin: auto;
+}
+
+.icon>* {
+    font-size: 2rem;
+    color: #fff;
+    position: absolute;
+    top: 28%;
+    left: 28%;
+
+}
+
+@media screen and (max-width:575px) {
+    .iconContainer {
+            background-image: linear-gradient(to left,
+                    #FF0F7B,
+                    #FB9B29);
+            height: 50px;
+            width: 50px;
+            border-radius: 40%;
+            position: relative;
+            margin: auto;
+        }
+    
+        .icon>* {
+            font-size: 1.3rem;
+            color: #fff;
+            position: absolute;
+            top: 28%;
+            left: 28%;
+    
+        }
+}

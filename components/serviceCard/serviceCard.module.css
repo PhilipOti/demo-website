@@ -1,0 +1,32 @@
+.service_card {
+    padding: 2rem;
+    margin: 2rem;
+    /* padding: 0.5rem; */
+    border-radius: 25px;
+    box-shadow: 0.2em 0.2em 0.70em rgba(0, 0, 0, 0.25);
+}
+
+.button_container {
+    max-width: fit-content;
+    margin: auto;
+}
+
+.button_container>*{
+    border: 0;
+    background-color: inherit;
+}
+
+.button_container>*:hover{
+    color: #FF0F7B;
+}
+
+.title {
+    font-size: 1.4em;
+    color: #FF0F7B;
+    margin-top: 1rem;
+}
+
+.text {
+    font-size: 0.9rem;
+}
+

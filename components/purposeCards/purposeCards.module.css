@@ -1,0 +1,48 @@
+.card_container {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 1.2rem;
+}
+
+
+
+.card {
+    /* background-color: #F1F1FB; */
+    /* background-image: linear-gradient(to left, #ebf4f5, #b5c6e0); */
+    padding: 0.5rem;
+    border-radius: 25px;
+    box-shadow: 0.2em 0.2em 0.70em rgba(0, 0, 0, 0.25);
+    
+}
+
+.title {
+    font-size: 1rem;
+    color: #FF0F7B;
+    font-family: "Lato",serif;
+    font-weight: 600;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.text {
+    font-size: 0.8rem;
+    color: #393A62;
+    text-align: center;
+}
+
+@media screen and (min-width:375px) {
+    .card_container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.2rem;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .title {
+            font-size: 1.1rem;
+        }
+    
+        .text {
+            font-size: 1rem;
+        }
+}

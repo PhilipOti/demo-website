@@ -1,0 +1,12 @@
+.logo_title {
+    cursor: pointer;
+    font-size: 35px;
+    transition: all 0.1s ease-in-out;
+
+}
+
+.logo_title_shrunk {
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    font-size: 28px;
+}
